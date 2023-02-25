@@ -11,6 +11,10 @@ pool.connect((err, res) => {
   console.log("Database Connected.");
 });
 
+app.get("/", (req, res) => {
+  
+})
+
 app.listen(port, () => {
   console.log(`Application running on port ${port}`);
 });
